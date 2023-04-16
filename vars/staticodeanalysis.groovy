@@ -1,4 +1,4 @@
 def call(credentialsId){
     withSonarQubeEnv(credentialsId: credentialsId) {
-    sh 'mvn clean ackage sonar:sonar'}
+    sh 'mvn clean package sonar:sonar'}
 }
